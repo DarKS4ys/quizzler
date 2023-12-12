@@ -1,23 +1,32 @@
 import Image from 'next/image';
-import Mockup from '@/public/Mockup.png';
 import ShinyButton from './components/DownloadButton';
-import { AiFillStar } from 'react-icons/ai';
 import VolkanHoca from '@/public/TS Koseoglu.png';
+import Mockup2 from '@/public/MockupFlip.png';
+import Mockup from '@/public/Mockup.png';
 
+import { AiFillStar } from 'react-icons/ai';
 import {DiReact} from 'react-icons/di'
 import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
 export default function Home() {
   return (
     <main className="px-4 md:px-10 md:h-screen py-16 justify-center flex overflow-hidden">
-      <div className="max-w-7xl mx-auto flex flex-col  md:flex-row gap-8 w-full items-center justify-center relative">
+      <div className="max-w-7xl mx-auto flex flex-col  md:flex-row gap-10 w-full items-center justify-center relative">
+        <Image
+          alt="Telefon"
+          width={720}
+          height={480}
+          src={Mockup2}
+          placeholder="blur"
+          className="object-cover w-[55%] hidden md:block md:w-[22%]"
+        />
         <Image
           alt="Telefon"
           width={720}
           height={480}
           src={Mockup}
           placeholder="blur"
-          className="object-cover w-[55%] md:w-[22%]"
+          className="object-cover w-[58%] md:hidden block md:w-[22%]"
         />
         <div className="flex flex-col gap-3 items-center">
           <h1 className="text-6xl md:text-7xl font-semibold bg-gradient-to-r from-white to-[#7b7a7a] bg-clip-text text-transparent">
