@@ -19,7 +19,7 @@ export default function Home() {
           <ShinyButton/>
 
           <div className='bg-red-400 w-96 h-96 rounded-full blur-[210px] absolute -z-10 md:-right-[8%] opacity-50'/>
-          <div className='bg-white w-96 h-96 rounded-full blur-[210px] absolute hidden md:block -z-10 md:left-[10%] md:-bottom-[20%] opacity-40'/>
+          <div className='bg-white w-96 h-96 rounded-full blur-[240px] absolute hidden md:block -z-10 md:left-[10%] md:-bottom-[20%] opacity-40'/>
 
 
           <h1 className='text-xl font-semibold mt-12'>Kullanıcılarımızdan yorumlar</h1>
