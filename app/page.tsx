@@ -4,6 +4,9 @@ import ShinyButton from './components/DownloadButton';
 import { AiFillStar } from 'react-icons/ai';
 import VolkanHoca from '@/public/TS Koseoglu.png';
 
+import {DiReact} from 'react-icons/di'
+import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
+
 export default function Home() {
   return (
     <main className="px-4 md:px-10 md:h-screen py-16 justify-center flex overflow-hidden">
@@ -32,7 +35,7 @@ export default function Home() {
           <h1 className="text-xl font-semibold mt-12">
             Kullanıcılarımızdan yorumlar
           </h1>
-          <div className="bg-[#1d1d1d] p-4 rounded-lg flex flex-col gap-3 max-w-xs">
+          <div className="bg-[#1d1d1d] p-4 rounded-lg flex flex-col gap-3 max-w-xs border border-[#2c2c2c]">
             <div className="flex gap-2 items-center">
               <Image
                 alt="Volkan Koseoglu Profil Foto"
@@ -62,8 +65,9 @@ export default function Home() {
             </div>
             <h4>Cok iyiymis asiri begendim allah razi olsun yapandan</h4>
           </div>
-
+          
           <p className="text-xs text-[#979696] font-light">developed by dark</p>
+          <div className='text-[#979696] flex gap-2'><DiReact/><SiNextdotjs/><SiTailwindcss/></div>
         </div>
       </div>
     </main>
