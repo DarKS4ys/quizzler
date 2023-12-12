@@ -22,7 +22,7 @@ export default function Home() {
           <h1 className='text-xl font-semibold mt-12'>Kullanıcılarımızdan yorumlar</h1>
           <div className='bg-[#1d1d1d] p-4 rounded-lg flex flex-col gap-3 max-w-xs'>
             <div className='flex gap-2 items-center'>
-            <Image alt='Volkan Koseoglu Profil Foto' src={VolkanHoca} width={100} height={100} className='w-10 h-10 rounded-full' />
+            <Image alt='Volkan Koseoglu Profil Foto' src={VolkanHoca} width={100} height={100} className='w-10 h-10 rounded-full' placeholder='blur' />
             <div className='flex flex-col gap-1 w-full'>
               <div className='flex justify-between items-between gap-2 items-center'>
                 <h1 className='font-bold text-sm md:text-lg'>Volkan Köseoğlu</h1>
